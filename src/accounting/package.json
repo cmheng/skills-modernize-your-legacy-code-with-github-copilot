@@ -1,0 +1,26 @@
+{
+  "name": "student-accounting-system",
+  "version": "1.0.0",
+  "description": "Student Account Management System - Modernized Node.js version from legacy COBOL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "accounting",
+    "student-accounts",
+    "balance-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
